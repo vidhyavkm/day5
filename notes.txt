@@ -1,0 +1,41 @@
+functions :
+set of instructions to perform a specific tasks.
+code reusuablilty=> functions 
+
+how to create a function:
+every function should begin with the keyword function
+function name should be unique
+a list parameters should be inside the () seperated by commos
+{}list of statement composing the body of the function .
+
+syntax:
+function (){}
+it always has a return value.
+
+if we dont use return key word inside the paranthesis we will get the output as undefined .
+
+console.log
+return (important)
+once the return keyword happens it should not allow others to work
+
+parameters:
+the things that get passed within the function. 
+arguments:
+the things get passed when the function is called.
+
+types of functions :
+
+named function
+anonymous function(without name)- it should declare by a variable name 
+IIFE- immediately invoked function expression - it doesnt have a return value, no need to call with the name of the function
+arrow function- it has or dotn have return value, but it has no key word called function(=>).
+
+named function syntax: function foo(){return()}
+
+anonymous function syntax: variable variablename = function () {return}
+
+IIFE: memory used is very less, time less ... syntax: (function(){})();
+
+arrow function:
+latest version of function es6. syntax: variable = () => {};
+it is used in a single line.
